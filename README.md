@@ -31,31 +31,6 @@ The participating team is asked to conduct the necessary research and build a pr
 - Pollinators and Animal preservation organizations
 - Maintenance of natural sights
 
-## Public Geodata South Holland
-
-Public geodata of the province of South Holland can be found [here](http://geoservices.zuid-holland.nl/arcgis/rest/services). 
-You can find information about economy, soil, land, boundaries, environment and water.
-
-#### User guide
-
-1. Click on the link.
-2. You can see that there is a thematic classification of folders (Folders).
-3. For example, click Rural_area
-4. You will now see a list of Services (it is also above) with MapServer in parentheses.
-5. For example, click Rural_area / Rural_area_WFS (MapServer)
-6. You will now see a list of layers.
-7. At the top, you will see the ArcGIS Online Map Viewer option behind "View In:"
-8. Click here. A map viewer is opened in a new tab. On the left-hand side under Content you will see Rural area WFS. This is the service that contains the layers that you just saw the list for.
-9. Click on the triangle for Rural Area WFS. And you see the same layers appear that you saw in step 6. The default setting is for the NBP 2018 MANAGEMENT AREA layer to be on. Turn this off. This is a heavy file, which means that image building takes a long time.
-10. Switch on the "Bicycle traffic intensity" layer. Points now appear in the map image.
-11. Now click on the text "Intensity of bicycle traffic". Icons will now appear below this text.
-12. Click on the second icon of a table. A table with data per point now appears below the map image.
-13. You have now opened a map viewer via the link from the email. Turned on a data layer and opened the table.
-14. For people who want to work with data, technical data is also useful, for example to see if a data layer consists of points, lines or surfaces, which area the layer covers or which columns of the table are in it. For this it is useful to click on the "All Layers and Tables" link from the previous tab.
-15. The technical data are listed per layer of the service.
- 
-This guide is for a WFS because with it the data itself (Features, the F in WFS) is shared in accordance with an open standard. In a GIS application, for example, someone who is in Argentina can use this to do an analysis and make a map.
-
 ## Available Data
 
 - [Land subsidence PZH](http://www.nationaalgeoregister.nl/geonetwork/srv/dut/catalog.search#/metadata/A604012E-53EC-4FC2-B39B-019957D67F7C)
@@ -83,19 +58,51 @@ This guide is for a WFS because with it the data itself (Features, the F in WFS)
 - [WMS altr_a01_gv_potnatbestui](Http://geodata.rivm.nl/geoserver/dank/wms?)  
  
 
-European Commision sensor data – mogelijk https://data.jrc.ec.europa.eu/dataset?sort=sort_criteria+desc%2C+title_string+asc&_tags_limit=0
-Weather data (wind finder, KNMI) - https://data.knmi.nl/datasets
-Heat, infrared, CO2 maps –  data.overheid.nl
-NDFF – niet zomaar openbaar vanwege beschermde soorten. Wel voor de provincie zelf.
-BRO - https://www.pdok.nl/introductie/-/article/basisregistratie-ondergrond-bro-  incl. services en downloads
-Water boards - Zoek op Informatiehuis Water op www.nationaalgeoregister.nl . Op https://www.waterkwaliteitsportaal.nl/ is ook data te downloaden.
-Radar Sentinel platform - https://www.spaceoffice.nl/nl/satellietdataportaal/sentinel-data-copernicus/
-AHN2 and AHN3 – hebben wij voor Zuid-Holland. Maar zijn zware bestanden. Beter voor kleinere delen gebruiken via PDOK:https://downloads.pdok.nl/ahn3-downloadpage/
-Link to informatie about places where tourist can stop and use another modality to enjoy nature:  https://dataloket.zuid-holland.nl/documenten/4000250171339 or National Georegister: http://nationaalgeoregister.nl/geonetwork/srv/dut/catalog.search#/metadata/1B3DA15D-73A2-4888-A999-3B2F800E292A?tab=general and data.overheid.nl: https://data.overheid.nl/dataset/61155-toeristische-overstappunten#panel-1
- For the topic “Verzilting” in english salinization you can find in the folder some datasets.
-Fauna https://ckan.dataplatform.nl/dataset/faunauittreedplaatsen    
-Water https://ckan.dataplatform.nl/dataset/ondersteunendewaterdelen/resource/3a05bd2b-7023-45db-a27a-0713a630bb6c
-https://ckan.dataplatform.nl/dataset/oppervlaktewaterkwaliteit/resource/cc2128fc-8615-49ee-883b-6eae4d2319a6
+- [European Commision sensor data](https://data.jrc.ec.europa.eu/dataset?sort=sort_criteria+desc%2C+title_string+asc&_tags_limit=0)
 
+- [Weather data (wind finder, KNMI)](https://data.knmi.nl/datasets)
 
+- [Heat, infrared, CO2 maps](data.overheid.nl)
+
+- [BRO](https://www.pdok.nl/introductie/-/article/basisregistratie-ondergrond-bro-)
+
+- [Water boards](www.nationaalgeoregister.nl)
+- [Water quality](https://www.waterkwaliteitsportaal.nl/)
+- [Radar Sentinel platform](https://www.spaceoffice.nl/nl/satellietdataportaal/sentinel-data-copernicus/)
+- [PDOK](https://downloads.pdok.nl/ahn3-downloadpage/)
+
+- [tourist locations nature](https://dataloket.zuid-holland.nl/documenten/4000250171339)
+- [National Georegister](http://nationaalgeoregister.nl/geonetwork/srv/dut/catalog.search#/metadata/1B3DA15D-73A2-4888-A999-3B2F800E292A?tab=general)
+
+- [toeristische overstappunten](https://data.overheid.nl/dataset/61155-toeristische-overstappunten#panel-1)
+ 
+- [Fauna](https://ckan.dataplatform.nl/dataset/faunauittreedplaatsen)
+
+- [Water](https://ckan.dataplatform.nl/dataset/ondersteunendewaterdelen/resource/3a05bd2b-7023-45db-a27a-0713a630bb6c)
+- [Water 2](https://ckan.dataplatform.nl/dataset/oppervlaktewaterkwaliteit/resource/cc2128fc-8615-49ee-883b-6eae4d2319a6)
+
+## Public Geodata South Holland
+
+Public geodata of the province of South Holland can be found [here](http://geoservices.zuid-holland.nl/arcgis/rest/services). 
+You can find information about economy, soil, land, boundaries, environment and water.
+
+#### User guide
+
+1. Click on the link.
+2. You can see that there is a thematic classification of folders (Folders).
+3. For example, click Rural_area
+4. You will now see a list of Services (it is also above) with MapServer in parentheses.
+5. For example, click Rural_area / Rural_area_WFS (MapServer)
+6. You will now see a list of layers.
+7. At the top, you will see the ArcGIS Online Map Viewer option behind "View In:"
+8. Click here. A map viewer is opened in a new tab. On the left-hand side under Content you will see Rural area WFS. This is the service that contains the layers that you just saw the list for.
+9. Click on the triangle for Rural Area WFS. And you see the same layers appear that you saw in step 6. The default setting is for the NBP 2018 MANAGEMENT AREA layer to be on. Turn this off. This is a heavy file, which means that image building takes a long time.
+10. Switch on the "Bicycle traffic intensity" layer. Points now appear in the map image.
+11. Now click on the text "Intensity of bicycle traffic". Icons will now appear below this text.
+12. Click on the second icon of a table. A table with data per point now appears below the map image.
+13. You have now opened a map viewer via the link from the email. Turned on a data layer and opened the table.
+14. For people who want to work with data, technical data is also useful, for example to see if a data layer consists of points, lines or surfaces, which area the layer covers or which columns of the table are in it. For this it is useful to click on the "All Layers and Tables" link from the previous tab.
+15. The technical data are listed per layer of the service.
+ 
+This guide is for a WFS because with it the data itself (Features, the F in WFS) is shared in accordance with an open standard. In a GIS application, for example, someone who is in Argentina can use this to do an analysis and make a map.
 
